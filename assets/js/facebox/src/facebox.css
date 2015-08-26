@@ -1,0 +1,110 @@
+#facebox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999999999;
+  text-align: left;
+  
+}
+
+
+#facebox .popup{
+  position:relative;
+  border:3px solid #000;
+/*  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  -webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+  -moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+  box-shadow:0 0 18px rgba(0,0,0,0.4);
+*/}
+
+#facebox .content {
+  display:table;
+  width: 100%;
+   background: #fff;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+}
+
+#facebox .content .titulo {
+	background:#000;
+	color:#FFF; padding:6px 5px  7px;
+	font-weight:bold; 
+	text-transform:uppercase
+}
+ 
+
+/* MENSAJE */
+#facebox .content #error, #facebox .content div#alerta, #facebox .content div#exito{ padding:8px; text-align:center; margin:0px auto; }
+#facebox .content div#exito span, #facebox .content #error span,#facebox .content #alerta span{display: inline-block;    height: 1.4em;    padding-right: 5px;    width: 1.5em;}
+
+#facebox .content div#error{ background: #FFF0F0; border:1px solid #F00;}
+#facebox .content div#error span{ background: url(../../../../img/icono/texto_error.png) no-repeat left}
+#facebox .content div#alerta{ background: #FFFFF2; border:1px solid #FF0;}
+#facebox .content div#alerta span{ background: url(../../../../img/icono/texto_alerta.png) no-repeat left; vertical-align: bottom;}
+#facebox .content div#exito{ background: #FFFFF2; border:1px solid #32DF34;}
+#facebox .content div#exito span{ background: url(../../../../img/icono/texto_check.png) no-repeat left}
+
+#facebox .content div.miniFacebox{ width: 40em}
+
+#facebox .content .cuerpo {
+	background:#fff;
+	color:#000; padding:6px 10px;
+	overflow: hidden;
+}
+#facebox .content .cuerpo.ancho750{ width: 64em} 
+#facebox .content .cuerpo h1{ font-size:2em}
+ 
+#facebox .content > p:first-child{
+  margin-top:0;
+}
+#facebox .content > p:last-child{
+  margin-bottom:0;
+}
+
+#facebox .close{
+  position:absolute;
+  top:5px;
+  right:5px;
+  padding:2px;
+  background: #F00;
+}
+#facebox .close img{
+ }
+#facebox .close:hover img{
+  opacity:1.0;
+}
+
+#facebox .loading {
+  text-align: center;
+  padding: 20px;
+  width: 100px;
+}
+
+#facebox .image {
+  text-align: center;
+}
+
+#facebox img {
+  border: 0;
+  margin: 0;
+}
+
+#facebox_overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+}
+
+.facebox_hide {
+  z-index:-100;
+}
+
+.facebox_overlayBG {
+  background-color: #000;
+  z-index: 99999999;
+}

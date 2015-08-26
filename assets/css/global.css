@@ -1,0 +1,448 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+body,.main-header .logo,h1,h2,h3,h4,h5,h6{
+    font-family:'Roboto', sans-serif !important;
+}
+
+.font-size-9{
+    font-size: 9px !important;
+}
+.display-none{
+    display: none;
+}
+/*
+/////////////////////////Monitoreo ////////////////////////
+*/
+.header-nombres-th{
+
+}
+
+
+.requisitos-sede-thead>tr>th{
+    vertical-align: middle !important;
+    background: #16a085 !important;
+    background-color: #1abc9c !important;
+    color: #FFF !important;
+}
+
+.requisitos-sede-no>tr>td{
+    padding:0 !important;
+    vertical-align: middle !important;
+}
+.requisitos-sede-no>tr>td>p{
+    font-size: 10px !important;
+    margin:0!important;
+    padding: 3px !important;
+    text-align: center;
+    background: #dd4b39 !important;
+    background-color: #dd4b39 !important;
+    color: #FFF !important;
+}
+
+.border-th-header-left{
+    border-left: 1px solid #000 !important;
+}
+
+.border-th-header-right{
+    border-right: 1px solid #000 !important;
+}
+
+.tfoot-placeholder{
+
+}
+
+.bg-plomo{
+    background-color: #CBCACA !important;
+}
+
+/*.tfoot-placeholder>th>input::-webkit-input-placeholder{
+   font-size: 10px;
+}
+.tfoot-placeholder>th>input::-moz-placeholder{
+   font-size: 10px;
+}
+.tfoot-placeholder>th>input:-moz-placeholder{
+   font-size: 10px;
+}
+.tfoot-placeholder>th>input::-ms-input-placeholder{
+   font-size: 10px;
+}*/
+
+input::-webkit-input-placeholder{
+   font-size: 10px;
+}
+input::-moz-placeholder{
+   font-size: 10px;
+}
+input:-moz-placeholder{
+   font-size: 10px;
+}
+input::-ms-input-placeholder{
+   font-size: 10px;
+}
+.placeholder-normal input::-webkit-input-placeholder{
+    font-size: 15px;
+}
+.placeholder-normal input::-moz-placeholder{
+    font-size: 15px;
+}
+.placeholder-normal input:-moz-placeholder{
+    font-size: 15px;
+}
+.placeholder-normal input::-ms-input-placeholder{
+    font-size: 15px;
+}
+
+
+.fieldset-legend-title{
+    text-align: left;
+    font-size: 16px;
+}
+
+
+
+
+
+/*
+///////////////////////Fin monitoreo //////////////////////
+*/
+.right-side > .content-header > .breadcrumb > li + li:before {
+    content: "/\00a0" !important;
+}
+#tablaListado>tbody>tr>td{
+    vertical-align: middle;
+}
+.margin-rigth-5{
+    margin-right: 5px;
+}
+
+.margin-cinco-derecha{
+    margin-right: 5px;
+}
+.no-box-shadow{
+    box-shadow: 0 0 0 !important;
+}
+
+.margin-left-5{
+    margin-left: 5px;
+}
+
+.margin-rigth-10{
+    margin-right: 10px;
+}
+
+.margin-left-10{
+    margin-left: 10px;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.padding-top-20{
+    padding-top: 20px;
+}
+
+.no-padding-left{
+    padding-left: 0;
+}
+
+.no-padding-right{
+    padding-right: 0;
+}
+
+.select2-result-label{
+    font-size: 12px;
+}
+
+.js-errors {
+    background: #c0392b;
+    color: #FFF;
+    font-size: 12px;
+    list-style-type: square;
+    padding: 1em 2em;
+}
+
+.js-errors {
+    display:none;
+}
+
+.text-version{
+    text-align: center;
+
+}
+.btn-guardar {
+    background-color: #16A085;
+    border-color: #019875;
+    color: #fff;
+}
+.btn-guardar:hover {
+    background-color: #019875;
+    border-color: #16A085;
+    color: #fff;
+}
+
+.alert {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+}
+
+.displayBlock{
+    display: block;
+}
+
+.sinpadding{
+    padding: 0;
+}
+.myErrorClass{
+    color: #ff0039;
+}
+.gifLoadingTable{
+    display: table;
+    margin: 0 auto;
+}
+.gifMessageTable{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.displayNone{
+    display: none;
+}
+
+.verdeResult,
+.ambarResult,
+.rojoResult{
+    color: #fff;
+}
+.verdeResult{
+    background-color: #1BA39C !important;
+}
+.ambarResult{
+    background-color: #F7CA18 !important;
+}
+.rojoResult{
+    background-color: #FE6860 !important;
+}
+.defaultResult{
+    background-color: #F2F1EF !important;
+    color:#000;
+}
+
+/* facebook */
+.delayFacebox{
+    background: #FFF;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+.delayFaceboxIcon{
+    left: 47%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    background: #FFF;
+    padding: 10px;
+    border: solid 3px #CCC;
+    border-radius: 5px;
+}
+#facebox .content .titulo{
+    cursor:move;
+    font-size: 14px;
+}
+
+#facebox .content .cuerpo {
+    overflow: auto !important;
+}
+#facebox .content{
+    background: #000;
+    color: #FFF;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.colorBlanco{
+    color: #FFF;
+}
+.xblanco{
+    /*opacity: 1;*/
+    font-size: 18px;
+}
+.xblanco{
+    opacity: .8;
+}
+/* Fin facebook */
+
+
+.headTablaListado tr th{
+    vertical-align: middle !important;
+    text-align: center;
+    font-size: 12px;
+}
+.footTablaListado {
+    display: table-header-group;
+}
+.footTablaListado tr th input{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    width: 100%;
+}
+.bodyTablaListado{
+    font-size: 13px;
+}
+.noBox{
+    border-top: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.header-primary{
+    background: #3c8dbc !important;
+}
+
+.table_cobertura_responsive thead tr th{
+    background: #3c8dbc;
+    color: #ecf0f1;
+    vertical-align: middle;
+}
+.table_cobertura_responsive thead tr th,
+.table_cobertura_responsive tbody tr td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hiddenRow {
+    padding: 0 0.5em !important;
+}
+
+.callout.callout-success{
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.callout.callout-success h4 {
+    color: #3c763d;
+}
+
+.no-border-radius{
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+
+}
+
+.modal-header{
+    background-color: #3c8dbc;
+    color: #fff;
+}
+.modal-content{
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+}
+
+.accordion-toggle .rowDown:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right !important;
+    color: grey;
+}
+.accordion-toggle .rowDown .collapsed:before {
+    content: "\f078";
+}
+
+/* sidebar translate */
+/*.treeview-menu li.active a{
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+.treeview-menu li a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    padding-right: 2.2em;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+.treeview-menu li a:hover, .treeview-menu li a:focus, .treeview-menu li a:active {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}*/
+/* Fin sidebar translate */
+
+.select2-drop{
+    z-index: 999999999 !important;
+}
+/* estilo para el selec2js*/
+.select2-container .select2-choice,
+.select2-container .select2-choice .select2-arrow{
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+
+@media screen and (min-width: 970px){
+    #facebox .content .cuerpo {
+        width: 1200px;
+    }
+    .page-login .login-box {
+        width: 30%;
+    }
+
+}
+@media screen and (max-width: 970px){
+#facebox{
+        width: 98% !important;
+        margin: 0 auto !important;
+    }
+    #facebox .popup{
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    #facebox .content{
+        width: 100% !important;
+        display: block !important;
+    }
+    #facebox .content .cuerpo{
+        width: 100% !important;
+    }
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 640px){
+
+}
+
